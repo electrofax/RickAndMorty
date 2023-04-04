@@ -1,6 +1,8 @@
 .header {
   display: flex;
   justify-content: center;
+  height: 200px;
+  background-color: rgb(18, 7, 78);
 }
 
 :where(.css-dev-only-do-not-override-1vtf12y).ant-layout-header {

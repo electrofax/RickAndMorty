@@ -1,5 +1,5 @@
 import { Card } from 'antd';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { type ICharOne } from '../../models/ICharOne';
 import HeaderLogo from '../Layout/HeaderLogo';

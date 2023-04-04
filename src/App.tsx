@@ -1,3 +1,4 @@
+import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import CharactersCard from './components/Characters/CharactersCard';
 import Header from './components/Layout/HeaderComponent';
