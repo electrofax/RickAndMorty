@@ -1,0 +1,20 @@
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardList_card {
+  margin: 10;
+  width: 240;
+}
+.oneCard {
+  display: flex;
+  justify-content: center;
+
+}
+
+.back-button {
+  display: flex;
+  justify-content: center;
+}
