@@ -2,7 +2,6 @@
   "name": "ts_rm",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://electrofax.github.io/RickAndMorty/",
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
     "@ant-design/plots": "^1.2.5",
@@ -40,8 +39,6 @@
     "typescript": "^4.9.5"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

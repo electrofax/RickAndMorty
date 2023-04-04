@@ -3,15 +3,13 @@ import React from 'react';
 import logo from '../assets/Rick_and_Morty_logo.png';
 import './Header.scss';
 
-const { Header } = Layout;
-
 const HeaderLogo: React.FC = () => (
   <Layout>
-    <Header className="header">
+    <header className="header">
       <div>
         <img className="logo_Header" src={logo} alt="icon" />
       </div>
-    </Header>
+    </header>
   </Layout>
 );
 
